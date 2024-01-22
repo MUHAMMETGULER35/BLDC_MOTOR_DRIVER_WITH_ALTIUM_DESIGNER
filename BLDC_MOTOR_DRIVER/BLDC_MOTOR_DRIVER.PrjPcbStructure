@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=DRIVER.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=DRIVER.SchDoc|FileName=MCU.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=DRIVER.SchDoc|FileName=POWER.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=DRIVER.SchDoc|FileName=PROTECTION.SchDoc|SheetNumber=1
