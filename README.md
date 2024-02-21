@@ -2,6 +2,7 @@
 
   Tasarım sürecinde oluşturulan devreler LTspice'da simüle edilmiş ve breadboard üzerinde kurularak test edilmiştir. Devre protection, power, Feedback ve MCU kısımlarından oluşmaktadır. Devrenin protection kısmı reverse polarity, over voltage, under voltage ve thermal shutdown devrelerinden oluşmaktadır. Devrenin driver kısmında, IR2103 IC kullanılarak, bootstrap sürme tekniğiyle mosfetler hıgh side ve low sıde sürülmüştür. Devrenin feedback kısımlarında rotorun başlangıç konumunu tespit eden initial pozition detector(IPD) devre yapısı kullanılmıştır.  zero-crossıng detector devresi ile sıfır noktası ADC'ler ile tespit edilip fazlar PWM ile enerjilendirilerek algoritma oluşturulmuştur. Regülatör kısmında 24V-3.3V swıtchıng mod yüksek verimli buck converter tasarımı yapılmıştır. MCU olarak STM32F103C8T6 mikrodenetleyicisi tercih edilmiştir. UART ile akım gerilim ve sıcaklık verileri dışarı verilmiştir. ADC, DMA ve interrupt gibi çevresel birimleri algoritmanın diğer kısımlarında kullanılmıştır.
 
+![28](https://github.com/MUHAMMETGULER35/BLDC_MOTOR_DRIVER_WITH_ALTIUM_DESIGNER/assets/156583959/9300c498-d545-419c-9a08-914b2014a111)
   
 ![58](https://github.com/MUHAMMETGULER35/BLDC_MOTOR_DRIVER_WITH_ALTIUM_DESIGNER/assets/156583959/6d2fe379-770a-40ee-a0e2-e542e5de2f4f)
 ![59](https://github.com/MUHAMMETGULER35/BLDC_MOTOR_DRIVER_WITH_ALTIUM_DESIGNER/assets/156583959/0bda92ca-d1b6-447b-a65a-639bc16304d9)
